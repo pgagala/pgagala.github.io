@@ -2,16 +2,16 @@
 
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://sylhare.github.io"
+url: "https://pgagala.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Gągała thoughts                                   # site's title
+title: Gagala thoughts                                   # site's title
 description: "Blog posts about programming"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
+avatar: assets/img/console.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: <code>Gągała thoughts</code>
+header_text:
 header_feature_image: assets/img/header/city.jpg
 header_feature_image_responsive: true
 footer_text: >
@@ -29,7 +29,7 @@ katex: true                                             # Enable if using math m
 mermaid: true                                           # Enable mermaid-js for sequence and diagrams
 google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
 cookie_consent: false                                   # To respect the usage of cookies
-color_theme: dark                                       # auto, dark or light
+color_theme: auto                                       # auto, dark or light
 
 # Comments
 comments:

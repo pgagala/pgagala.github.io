@@ -6,6 +6,7 @@
     {% if site.color_theme == 'auto' %}
     <script>
         const isAutoTheme = true;
+        sessionStorage.setItem('theme', 'dark')
         document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme'))
     </script>
     {% else %}
