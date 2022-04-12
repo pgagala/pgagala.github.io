@@ -1,5 +1,3 @@
-# TODO add triangular medium and small
-
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://pgagala.github.io"
@@ -8,7 +6,7 @@ url: "https://pgagala.github.io"
 title: Gagala thoughts                                   # site's title
 description: "Blog posts about programming"      # used by search engines
 avatar: assets/img/console.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+favicon: assets/favicon_console.ico                             # Icon displayed in the tab
 
 # Header and footer text
 header_text:
@@ -36,8 +34,17 @@ comments:
   disqus_shortname:                                     # Your discus shortname for comments
   cusdis_app_id:                                        # Your cusdis data-app-id
   utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
-    repo:                                               # your public comments repository (e.g. owner/repo)
-    issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
+    repo:                                               pgagala/pgagala.github.io
+    issue-term:                                         comment
+    theme: github-dark
+
+
+#comments:
+#  utterances:              # Enable by filling below information. For more info, go to https://utteranc.es
+#    repo:                  # your public comments repository (e.g. owner/repo)
+#    issue-term:            # Issue term (e.g. "comment" consider issues with this word in the title as comments)
+#    theme:                 # OPTIONAL: Take the `color_theme` by default, or set a custom one like github-dark-orange
+#    label:                 # OPTIONAL: Adds an issue label in the issue
 
 # PAGINATION
 paginate: 5
