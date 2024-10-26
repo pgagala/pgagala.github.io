@@ -4,14 +4,14 @@ url: "https://pgagala.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Gagala thoughts                                   # site's title
-description: "Blog posts about programming"      # used by search engines
+description: "Blog posts about programming and not only"      # used by search engines
 avatar: assets/img/console.png                         # Empty for no avatar in navbar
 favicon: assets/favicon_console.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text:
-header_feature_image: assets/img/header/city.jpg
-header_feature_image_responsive: true
+#header_text:
+#header_feature_image: assets/img/header/triangular-medium.jpeg
+#header_feature_image_responsive: true
 footer_text: >
   © 2022 Paweł Gągała. Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
@@ -60,8 +60,8 @@ paginate_path: "/blog/page:num"
 # BUILD SETTINGS
 sass:
   style: compressed
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
-exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node_modules/*"]
+plugins: [ jekyll-paginate, jekyll-seo-tag, jekyll-feed ]
+exclude: [ ".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node_modules/*" ]
 
 # theme: type-on-strap                                  # if using the theme as a jekyll theme gem
 remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github

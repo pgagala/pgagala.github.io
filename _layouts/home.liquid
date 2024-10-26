@@ -3,6 +3,11 @@ layout: default
 ---
 
 <div class="home">
+
+
+   {% comment %}
+   Commented out now header.
+
     <style scoped>
         {% assign image = site.header_feature_image | relative_url | split: '.' %}
         .call-out_img {
@@ -24,6 +29,7 @@ layout: default
     <div id="main" class="call-out call-out_img">
         <h1> {{ site.header_text | default: ""}} </h1>
     </div>
+    {% endcomment %}
 
     {% include blog/blog.liquid %}
 
